@@ -5,7 +5,7 @@ def my_collect(array)
     output << yield(array[count])
     count += 1
   end
-  return output
+  output
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
